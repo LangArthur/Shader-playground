@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["playground", "shaders/first-shader"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Arthur Lang"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/LangArthur/Shader-playground"
+
+[workspace.dependencies]
+spirv-std = { version = "0.9" }
